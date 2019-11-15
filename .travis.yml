@@ -117,6 +117,7 @@ deploy:
     tags: true
   provider: releases
   skip_cleanup: true
+  edge: true
 
 cache: cargo
 before_cache:
